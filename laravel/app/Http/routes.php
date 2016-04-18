@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//Route::get('shazi', 'TestController@hello');
+//Route::controller('test','TestController');
+Route::resource('test', 'TestController');
+//echo URL::route('test.index');
 /*
 |--------------------------------------------------------------------------
 | Application Routes
