@@ -13,7 +13,6 @@ class TestController extends Controller
 {
     public function __construct()
     {
-
     }
 
     protected function index()
